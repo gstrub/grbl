@@ -41,11 +41,11 @@
   #define DEFAULT_X_MAX_TRAVEL 200.0 // mm NOTE: Must be a positive value.
   #define DEFAULT_Y_MAX_TRAVEL 200.0 // mm NOTE: Must be a positive value.
   #define DEFAULT_Z_MAX_TRAVEL 200.0 // mm NOTE: Must be a positive value.
-  #define DEFAULT_SPINDLE_RPM_MAX 1000.0 // rpm
-  #define DEFAULT_SPINDLE_RPM_MIN 0.0 // rpm
+  #define DEFAULT_SPINDLE_RPM_MAX 60000.0 // rpm
+  #define DEFAULT_SPINDLE_RPM_MIN 30000.0 // rpm
   #define DEFAULT_STEP_PULSE_MICROSECONDS 10
   #define DEFAULT_STEPPING_INVERT_MASK 0
-  #define DEFAULT_DIRECTION_INVERT_MASK 0
+  #define DEFAULT_DIRECTION_INVERT_MASK 7
   #define DEFAULT_STEPPER_IDLE_LOCK_TIME 25 // msec (0-254, 255 keeps steppers enabled)
   #define DEFAULT_STATUS_REPORT_MASK 1 // MPos enabled
   #define DEFAULT_JUNCTION_DEVIATION 0.01 // mm
